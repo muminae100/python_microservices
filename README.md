@@ -22,5 +22,37 @@ Route
 Method
 </td>
 </th>
-
+<tr>
+<td>
+All products
+</td>
+<td>
+/api/products
+</td>
+<td>
+GET
+</td>
+</tr>
+<tr>
+<td>
+Create product
+</td>
+<td>
+/api/products/
+</td>
+<td>
+POST
+</td>
+</tr>
+<tr>
+<td>
+Retrieve product
+</td>
+<td>
+/api/products/<>
+</td>
+<td>
+GET
+</td>
+</tr>
 </table>
