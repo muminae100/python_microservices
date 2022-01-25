@@ -11,7 +11,7 @@ Pika<br>
 
 # Endpoints
 <table>
-<th>
+<tr>
 <td>
 Endpoint
 </td>
@@ -21,7 +21,7 @@ Route
 <td>
 Method
 </td>
-</th>
+</tr>
 <tr>
 <td>
 All products
@@ -49,10 +49,32 @@ POST
 Retrieve product
 </td>
 <td>
-/api/products/<>
+/api/products/&lt;int:id&gt;
 </td>
 <td>
 GET
+</td>
+</tr>
+<tr>
+<td>
+Update product
+</td>
+<td>
+/api/products/&lt;int:id&gt;
+</td>
+<td>
+PUT
+</td>
+</tr>
+<tr>
+<td>
+Delete product
+</td>
+<td>
+/api/products/&lt;int:id&gt;
+</td>
+<td>
+DELETE
 </td>
 </tr>
 </table>
