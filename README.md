@@ -8,6 +8,7 @@ Django and Django RESTFramework<br>
 Flask<br>
 RabbitMQ<br>
 Pika<br>
+Docker<br>
 
 # Endpoints
 <table>
