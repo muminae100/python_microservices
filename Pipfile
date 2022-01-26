@@ -10,6 +10,7 @@ mysqlclient = "*"
 django-mysql = "*"
 pika = "*"
 django-cors-headers = "*"
+gunicorn = "*"
 
 [dev-packages]
 
